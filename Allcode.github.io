@@ -95,7 +95,7 @@
 
     <!-- Image Gallery -->
     <section class="gallery">
-    <img src="https://www.pexels.com/photo/3183153/download/" alt="Delicious Cake">
+    <img src="https://github.com/nickneouk/Allcode/blob/fbf32bdb6fa3c9e1d14af64a811eacfef3f05020/image_1746535383420.jpeg" alt="Delicious Cake">
     <img src="https://www.pexels.com/photo/302680/download/" alt="Fluffy Crumpets">
     <img src="https://www.pexels.com/photo/411025/download/" alt="Beautiful Pastries">
     <img src="https://www.pexels.com/photo/853004/download/" alt="Scrumptious Cupcakes">
