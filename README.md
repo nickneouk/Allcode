@@ -96,9 +96,9 @@
 
     <!-- Image Gallery -->
     <section class="gallery">
-    <img src="image_1746535383420.jpeg" alt="Bakery Item">
-    <img src="image_Kat.jpeg" alt="Kat Image">
-</section>
+    <img src="image_cake.jpg" alt="Bakery Item">
+    <img src="image_kat.jpg" alt="Kat Image">
+    </section>
 
     <!-- Call to Action -->
     <a href="order.html" class="cta">Order Now & Indulge!</a>
