@@ -92,12 +92,10 @@
         <p>Welcome to Kat’s Fresh Crumpets, where every bite brings delight! 
         Our bakery crafts fresh, fluffy crumpets, irresistible cakes, and the perfect pastries to brighten your day.</p>
         <p>Whether you're craving a morning treat or a celebration cake, we’ve got something special just for you!</p>
-    </section>
-    <!-- Image Gallery -->
     <section class="gallery">
     <img src="cake.jpg" alt="Bakery Item">
     <img src="kat.jpg" alt="Kat Image">
-    </section>
+</section>
 
     <!-- Call to Action -->
     <a href="order.html" class="cta">Order Now & Indulge!</a>
