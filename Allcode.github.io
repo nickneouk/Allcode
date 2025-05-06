@@ -96,7 +96,7 @@
 
     <!-- Image Gallery -->
     <section class="gallery">
-        <img src="https://raw.githubusercontent.com/nickneouk/Allcode/main/image_1746535383420.jpeg" alt="Bakery Item">
+        <img src="image_1746535383420.jpeg" alt="Bakery Item">
     </section>
 
     <!-- Call to Action -->
