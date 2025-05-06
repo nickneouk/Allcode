@@ -97,6 +97,7 @@
     <!-- Image Gallery -->
     <section class="gallery">
         <img src="image_1746535383420.jpeg" alt="Bakery Item">
+<img src="image_Screenshot_20250506_174331_com_hihonor_photos_SlotAlbumActivity.jpg" 
     </section>
 
     <!-- Call to Action -->
