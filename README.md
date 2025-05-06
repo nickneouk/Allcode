@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kat's Fresh Crumpets | Delicious Cakes & Bakery</title>
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
     <!-- Styling -->
     <style>
         body {
@@ -53,14 +56,18 @@
         }
 
         .cta {
-            background-color: #D2601A;
-            padding: 20px;
-            border-radius: 10px;
             display: inline-block;
+            background-color: #D2601A;
+            padding border-radius: 10px;
             color: white;
             font-size: 1.3rem;
             text-decoration: none;
             margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .cta:hover {
+            background-color: #B23F17;
         }
 
         footer {
@@ -81,16 +88,16 @@
 
     <!-- Introduction -->
     <section class="intro">
-        <p>Welcome to **Kat’s Fresh Crumpets**, where every bite brings delight! 
-        Our bakery crafts **fresh, fluffy crumpets**, irresistible **cakes**, and the perfect **pastries** to brighten your day.</p>
+        <p>Welcome to Kat’s Fresh Crumpets, where every bite brings delight! 
+        Our bakery crafts fresh, fluffy crumpets, irresistible cakes, and the perfect pastries to brighten your day.</p>
         <p>Whether you're craving a morning treat or a celebration cake, we’ve got something special just for you!</p>
     </section>
 
     <!-- Image Gallery -->
     <section class="gallery">
-        <img src="https://source.unsplash.com/250x250/?cake" alt="Delicious Cake">
-        <img src="https://source.unsplash.com/250x250/?crumpets" alt="Fluffy Crumpets">
-        <img src="https://source.unsplash.com/250x250/?bakery" alt="Beautiful Bakery">
+        <img src="https://source.unsplash.com/250x250/?cake,dessert" alt="Delicious Cake">
+        <img src="https://source.unsplash.com/250x250/?crumpets,bakery" alt="Fluffy Crumpets">
+        <img src="https://source.unsplash.com/250x250/?pastry" alt="Beautiful Pastries">
         <img src="https://source.unsplash.com/250x250/?cupcakes" alt="Scrumptious Cupcakes">
     </section>
 
