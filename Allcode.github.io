@@ -3,77 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accounting Basics</title>
+    <title>Kat's Fresh Crumpets | Delicious Cakes & Bakery</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Styling -->
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAF3E0;
+            color: #5C3D2E;
+            text-align: center;
         }
+
+        header {
+            background-color: #D2601A;
+            padding: 20px;
+            color: white;
+        }
+
         h1 {
-            color: #0056b3;
+            font-size: 3rem;
+            margin: 0;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+        h2 {
+            font-size: 1.6rem;
+            color: #B23F17;
         }
-        canvas {
-            max-width: 100%;
+
+        .intro {
+            padding: 30px;
+            font-size: 1.2rem;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .gallery img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta {
+            display: inline-block;
+            background-color: #D2601A;
+            padding border-radius: 10px;
+            color: white;
+            font-size: 1.3rem;
+            text-decoration: none;
             margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .cta:hover {
+            background-color: #B23F17;
+        }
+
+        footer {
+            background-color: #5C3D2E;
+            padding: 15px;
+            color: white;
+            font-size: 0.9rem;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Introduction to Accounting</h1>
-        <p>Accounting is the process of recording, summarizing, analyzing, and reporting financial transactions of a business. It helps organizations track income, expenses, and financial performance.</p>
-        
-        <h2>Key Accounting Principles</h2>
-        <ul>
-            <li><strong>Accrual Principle:</strong> Transactions are recorded when they occur, not when cash is exchanged.</li>
-            <li><strong>Matching Principle:</strong> Expenses are recorded in the same period as the related revenues.</li>
-            <li><strong>Conservatism Principle:</strong> Financial statements should err on the side of caution when estimating values.</li>
-            <li><strong>Going Concern Principle:</strong> Assumes the business will continue operating indefinitely.</li>
-        </ul>
 
-        <h2>Revenue vs. Expenses Chart</h2>
-        <canvas id="accountingChart"></canvas>
-    </div>
+    <!-- Header -->
+    <header>
+        <h1>Kat's Fresh Crumpets</h1>
+        <h2>Baking Joy, One Crumpet at a Time!</h2>
+    </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script>
-        const ctx = document.getElementById('accountingChart').getContext('2d');
-        new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ['January', 'February', 'March', 'April', 'May'],
-                datasets: [
-                    {
-                        label: 'Revenue ($)',
-                        data: [1200, 1500, 1700, 1600, 1900],
-                        backgroundColor: 'rgba(0, 123, 255, 0.5)'
-                    },
-                    {
-                        label: 'Expenses ($)',
-                        data: [800, 900, 1100, 1000, 1200],
-                        backgroundColor: 'rgba(255, 99, 132, 0.5)'
-                    }
-                ]
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-    </script>
+    <!-- Introduction -->
+    <section class="intro">
+        <p>Welcome to Kat’s Fresh Crumpets, where every bite brings delight! 
+        Our bakery crafts fresh, fluffy crumpets, irresistible cakes, and the perfect pastries to brighten your day.</p>
+        <p>Whether you're craving a morning treat or a celebration cake, we’ve got something special just for you!</p>
+    </section>
+
+    <!-- Image Gallery -->
+    <section class="gallery">
+        <img src="https://source.unsplash.com/250x250/?cake,dessert" alt="Delicious Cake">
+        <img src="https://source.unsplash.com/250x250/?crumpets,bakery" alt="Fluffy Crumpets">
+        <img src="https://source.unsplash.com/250x250/?pastry" alt="Beautiful Pastries">
+        <img src="https://source.unsplash.com/250x250/?cupcakes" alt="Scrumptious Cupcakes">
+    </section>
+
+    <!-- Call to Action -->
+    <a href="order.html" class="cta">Order Now & Indulge!</a>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Kat's Fresh Crumpets - Crafted with Love & Butter</p>
+    </footer>
+
 </body>
 </html>
