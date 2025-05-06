@@ -95,6 +95,11 @@
 
     <!-- Image Gallery -->
     <section class="gallery">
+<img src="https://raw.githubusercontent.com/nickneouk/Allcode/main/image_1746535383420.jpeg" 
+     alt="Your Image" 
+     width="300" 
+     height="200" 
+     style="border-radius: 10px; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);">
     <img src="https://github.com/nickneouk/Allcode/blob/fbf32bdb6fa3c9e1d14af64a811eacfef3f05020/image_1746535383420.jpeg" alt="Delicious Cake">
     <img src="https://www.pexels.com/photo/302680/download/" alt="Fluffy Crumpets">
     <img src="https://www.pexels.com/photo/411025/download/" alt="Beautiful Pastries">
