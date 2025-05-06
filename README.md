@@ -95,11 +95,11 @@
 
     <!-- Image Gallery -->
     <section class="gallery">
-        <img src="https://source.unsplash.com/250x250/?cake,dessert" alt="Delicious Cake">
-        <img src="https://source.unsplash.com/250x250/?crumpets,bakery" alt="Fluffy Crumpets">
-        <img src="https://source.unsplash.com/250x250/?pastry" alt="Beautiful Pastries">
-        <img src="https://source.unsplash.com/250x250/?cupcakes" alt="Scrumptious Cupcakes">
-    </section>
+    <img src="https://www.pexels.com/photo/3183153/download/" alt="Delicious Cake">
+    <img src="https://www.pexels.com/photo/302680/download/" alt="Fluffy Crumpets">
+    <img src="https://www.pexels.com/photo/411025/download/" alt="Beautiful Pastries">
+    <img src="https://www.pexels.com/photo/853004/download/" alt="Scrumptious Cupcakes">
+</section>
 
     <!-- Call to Action -->
     <a href="order.html" class="cta">Order Now & Indulge!</a>
