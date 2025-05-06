@@ -49,16 +49,17 @@
         }
 
         .gallery img {
-            width: 250px;
+            width: 300px;
             height: auto;
             border-radius: 10px;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
         }
 
         .cta {
             display: inline-block;
             background-color: #D2601A;
-            padding border-radius: 10px;
+            padding: 15px 25px;
+            border-radius: 10px;
             color: white;
             font-size: 1.3rem;
             text-decoration: none;
@@ -95,11 +96,8 @@
 
     <!-- Image Gallery -->
     <section class="gallery">
-    <img src="https://www.pexels.com/photo/3183153/download/" alt="Delicious Cake">
-    <img src="https://www.pexels.com/photo/302680/download/" alt="Fluffy Crumpets">
-    <img src="https://www.pexels.com/photo/411025/download/" alt="Beautiful Pastries">
-    <img src="https://www.pexels.com/photo/853004/download/" alt="Scrumptious Cupcakes">
-</section>
+        <img src="https://raw.githubusercontent.com/nickneouk/Allcode/main/image_1746535383420.jpeg" alt="Bakery Item">
+    </section>
 
     <!-- Call to Action -->
     <a href="order.html" class="cta">Order Now & Indulge!</a>
