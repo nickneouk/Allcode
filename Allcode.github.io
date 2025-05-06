@@ -95,8 +95,8 @@
     </section>
     <!-- Image Gallery -->
     <section class="gallery">
-    <img src="image_cake.jpg" alt="Bakery Item">
-    <img src="image_kat.jpg" alt="Kat Image">
+    <img src="cake.jpg" alt="Bakery Item">
+    <img src="kat.jpg" alt="Kat Image">
     </section>
 
     <!-- Call to Action -->
