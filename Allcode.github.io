@@ -97,7 +97,7 @@
     <!-- Image Gallery -->
     <section class="gallery">
     <img src="image_1746535383420.jpeg" alt="Bakery Item">
-    <img src="image_Screenshot_20250506_174331_com_hihonor_photos_SlotAlbumActivity.jpg" alt="Screenshot Image">
+    <img src="image_kat.jpg" alt="Kat Image">
 </section>
 
     <!-- Call to Action -->
